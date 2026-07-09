@@ -1,0 +1,1134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>II Congreso Interinstitucional | Calidad y Seguridad del Paciente</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Sora', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              900: '#0F54A0',
+              800: '#1560b3',
+              700: '#1c6cc4',
+              500: '#3b82c4',
+            },
+            accent: {
+              500: '#0F54A0',
+              600: '#0d478a',
+            },
+            cream: '#F3ECDD',
+            soft: '#F2F2F2',
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header -->
+  <header class="bg-brand-900 text-white">
+    <div class="w-full px-6 sm:px-10 lg:px-16">
+      <div class="flex h-20 items-center gap-4">
+
+        <!-- Logo -->
+        <a href="#inicio" class="flex items-center gap-3 shrink-0 mr-auto">
+          <img src="logo_blue_mini.jpg" alt="II Congreso Interinstitucional - Calidad y Seguridad del Paciente" class="h-14 w-auto object-contain" />
+        </a>
+
+        <!-- Nav links -->
+        <nav class="hidden xl:flex items-center gap-6 text-sm font-medium">
+          <a href="#inicio" aria-label="Inicio" class="hover:text-white/70 transition-colors">
+            <i class="fa-solid fa-house"></i>
+          </a>
+          <a href="#sobre-el-congreso" class="hover:text-white/70 transition-colors">Sobre el Congreso</a>
+          <a href="#dirigido" class="hover:text-white/70 transition-colors">A quién va dirigido</a>
+          <a href="#cronograma" class="hover:text-white/70 transition-colors">Cronograma</a>
+          <a href="#historico" class="hover:text-white/70 transition-colors">Histórico</a>
+          <a href="#organizadores" class="hover:text-white/70 transition-colors">Organizadores</a>
+        </nav>
+
+        <!-- Buttons -->
+        <div class="hidden xl:flex items-center gap-3 shrink-0">
+          <a href="#certificado"
+             class="rounded-full border border-white/70 px-4 py-2 text-sm font-semibold whitespace-nowrap hover:bg-white/10 transition-colors">
+            Descarga tu certificado
+          </a>
+          <a href="#registro"
+             class="rounded-full bg-white px-5 py-2 text-sm font-semibold text-brand-900 whitespace-nowrap hover:bg-gray-100 transition-colors">
+            Registro
+          </a>
+        </div>
+
+        <!-- Mobile menu button -->
+        <button id="menu-btn" class="xl:hidden inline-flex items-center justify-center p-2 rounded-md hover:bg-white/10">
+          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile menu -->
+      <div id="mobile-menu" class="hidden xl:hidden pb-6">
+        <nav class="flex flex-col gap-4 text-sm font-medium">
+          <a href="#inicio" class="flex items-center gap-2 hover:text-white/70">
+            <i class="fa-solid fa-house"></i> Inicio
+          </a>
+          <a href="#sobre-el-congreso" class="hover:text-white/70">Sobre el Congreso</a>
+          <a href="#dirigido" class="hover:text-white/70">A quién va dirigido</a>
+          <a href="#cronograma" class="hover:text-white/70">Cronograma</a>
+          <a href="#historico" class="hover:text-white/70">Histórico</a>
+          <a href="#organizadores" class="hover:text-white/70">Organizadores</a>
+        </nav>
+        <div class="flex flex-col gap-3 mt-6">
+          <a href="#certificado" class="text-center rounded-full border border-white/70 px-4 py-2 text-sm font-semibold hover:bg-white/10">
+            Descarga tu certificado
+          </a>
+          <a href="#registro" class="text-center rounded-full bg-white px-5 py-2 text-sm font-semibold text-brand-900 hover:bg-gray-100">
+            Registro
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Left: text -->
+        <div>
+          <span class="inline-block border border-brand-500/50 text-brand-700 text-xs font-semibold tracking-widest uppercase px-4 py-2">
+            Cúcuta &middot; Norte de Santander
+          </span>
+
+          <h1 class="mt-6 text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.05] tracking-tight">
+            <span class="block text-brand-900">II CONGRESO</span>
+            <span class="block text-brand-700">CALIDAD Y</span>
+            <span class="block text-brand-700">SEGURIDAD</span>
+            <span class="block">
+              <span class="text-brand-900">DEL </span><span class="text-brand-500">PACIENTE</span>
+            </span>
+          </h1>
+
+          <p class="mt-6 text-brand-800/80 text-base sm:text-lg max-w-md">
+            Transformando la atención en salud de Norte de Santander a través de la
+            calidad y la seguridad clínica.
+          </p>
+
+          <div class="mt-10 flex flex-wrap gap-x-10 gap-y-4">
+            <div>
+              <span class="block text-xs font-semibold tracking-widest text-brand-700/60 uppercase">Fecha</span>
+              <span class="block mt-1 text-lg font-bold text-brand-900">24 — 26 SEP</span>
+            </div>
+            <div>
+              <span class="block text-xs font-semibold tracking-widest text-brand-700/60 uppercase">Modalidad</span>
+              <span class="block mt-1 text-lg font-bold text-brand-900">PRESENCIAL</span>
+            </div>
+            <div>
+              <span class="block text-xs font-semibold tracking-widest text-brand-700/60 uppercase">Inscripción</span>
+              <span class="block mt-1 text-lg font-bold text-brand-900">GRATUITA</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: image -->
+        <div>
+          <div class="aspect-[4/5] w-full max-w-md mx-auto overflow-hidden bg-brand-900">
+            <img
+              src="https://images.unsplash.com/photo-1584982751601-97dcc096659c?q=80&w=800&auto=format&fit=crop"
+              alt="Instrumental médico"
+              class="h-full w-full object-cover"
+            />
+          </div>
+          <p class="mt-4 text-xs font-semibold tracking-widest text-brand-700/60 uppercase max-w-md mx-auto">
+            Precisión &middot; Rigor &middot; Excelencia
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Sobre el Congreso -->
+  <section id="sobre-el-congreso" class="bg-gray-100">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Left: text -->
+        <div>
+          <span class="inline-block border border-brand-500/50 text-brand-700 text-xs font-semibold tracking-widest uppercase px-4 py-2">
+            Una nueva propuesta académica y colaborativa
+          </span>
+
+          <h2 class="mt-6 text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.1] tracking-tight">
+            <span class="text-brand-900">¿QUÉ ES EL II CONGRESO</span>
+            <span class="block text-brand-500">INTERINSTITUCIONAL?</span>
+          </h2>
+
+          <div class="mt-6 space-y-4 text-brand-800/80 text-base leading-relaxed">
+            <p>
+              El II Congreso Interinstitucional de Calidad y Seguridad del Paciente es una
+              nueva propuesta académica y colaborativa que busca consolidarse como un
+              espacio de encuentro entre instituciones de salud, profesionales, docentes,
+              estudiantes y líderes del sector.
+            </p>
+            <p>
+              Este evento tiene como propósito referenciar y visibilizar las buenas prácticas
+              en calidad y seguridad del paciente, destacando experiencias que fortalecen la
+              prestación de servicios en el departamento de Norte de Santander.
+            </p>
+            <p>
+              El II Congreso contará con ponencias, paneles y espacios de discusión
+              orientados a la acreditación en salud, la gestión de la calidad, y la
+              implementación de estrategias innovadoras en la atención.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: image placeholder -->
+        <div class="w-full h-80 sm:h-96 lg:h-full lg:min-h-[520px] bg-brand-900/10"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Por qué asistir -->
+  <section id="por-que-asistir" class="bg-blue-50 py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto">
+        <span class="text-xs font-bold tracking-widest text-brand-700 uppercase">Por qué participar</span>
+        <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-gray-900">¿Por qué asistir al Congreso?</h2>
+        <p class="mt-3 text-gray-600">Una oportunidad única de actualización y fortalecimiento profesional</p>
+      </div>
+
+      <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="h-12 w-12 rounded-xl bg-brand-900 text-white flex items-center justify-center text-xl">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <h3 class="mt-5 text-lg font-bold text-gray-900">Ponencias de Alto Nivel</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Accede a ponencias con referentes locales, regionales y nacionales en
+            acreditación, gestión del riesgo y seguridad clínica.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="h-12 w-12 rounded-xl bg-brand-700 text-white flex items-center justify-center text-xl">
+            <i class="fa-solid fa-lightbulb"></i>
+          </div>
+          <h3 class="mt-5 text-lg font-bold text-gray-900">Experiencias Exitosas</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Conoce casos de éxito de instituciones de salud con avances significativos
+            en estándares de calidad.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="h-12 w-12 rounded-xl bg-brand-500 text-white flex items-center justify-center text-xl">
+            <i class="fa-solid fa-wrench"></i>
+          </div>
+          <h3 class="mt-5 text-lg font-bold text-gray-900">Herramientas Prácticas</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Fortalece tus competencias con herramientas aplicables a tu quehacer
+            diario, sin importar tu rol en el sistema.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="h-12 w-12 rounded-xl bg-brand-800 text-white flex items-center justify-center text-xl">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <h3 class="mt-5 text-lg font-bold text-gray-900">Red de Contactos</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Amplía tu red interinstitucional, compartiendo espacios con colegas,
+            directivos y expertos del sector.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="h-12 w-12 rounded-xl bg-brand-900 text-white flex items-center justify-center text-xl">
+            <i class="fa-solid fa-gift"></i>
+          </div>
+          <h3 class="mt-5 text-lg font-bold text-gray-900">Evento Gratuito</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Diseñado para generar impacto académico y social, reafirmando el
+            compromiso con la mejora continua.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8 shadow-sm">
+          <div class="h-12 w-12 rounded-xl bg-brand-700 text-white flex items-center justify-center text-xl">
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <h3 class="mt-5 text-lg font-bold text-gray-900">Referente Regional</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Forma parte de un escenario que proyecta a Norte de Santander como
+            referente en atención segura.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- A quién va dirigido -->
+  <section id="dirigido" class="bg-white py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <!-- Left: text + chips -->
+        <div>
+          <span class="text-xs font-bold tracking-widest text-brand-700 uppercase">Audiencia</span>
+          <h2 class="mt-3 text-3xl sm:text-4xl font-extrabold text-gray-900">¿A quién está dirigido?</h2>
+          <p class="mt-3 text-gray-600 leading-relaxed max-w-md">
+            El enfoque principal está dirigido a una audiencia diversa del sistema de
+            salud, con el objetivo de generar un diálogo transversal e inclusivo.
+          </p>
+
+          <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-user-doctor text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Profesionales de Medicina</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-heart-pulse text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Profesionales de Enfermería</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-dumbbell text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Fisioterapeutas</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-star text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Especialistas</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-check text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Auditores</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-circle-check text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Líderes de Procesos</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-id-badge text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Auxiliares y Técnicos</span>
+            </div>
+            <div class="flex items-center gap-3 bg-gray-50 border border-gray-200 rounded-xl px-5 py-4 shadow-sm">
+              <i class="fa-solid fa-book-open text-brand-700"></i>
+              <span class="text-sm font-semibold text-gray-800">Docentes y Estudiantes</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: image placeholder -->
+        <div class="relative w-full h-80 lg:h-full lg:min-h-[480px] rounded-2xl overflow-hidden bg-brand-900"
+             style="background-image: repeating-linear-gradient(45deg, rgba(255,255,255,0.06) 0 2px, transparent 2px 14px);">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="bg-gray-900/80 text-white text-xs font-semibold text-center px-5 py-3 rounded-lg max-w-[220px]">
+              FOTO · equipo médico<br />reemplazar con imagen real
+            </span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Ponentes Destacados -->
+  <section id="ponentes" class="bg-blue-50 py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-4">
+        <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight">
+          <span class="text-brand-900">PONENTES</span>
+          <span class="text-brand-500">DESTACADOS</span>
+        </h2>
+        <p class="text-brand-800/70 max-w-md text-sm sm:text-base">
+          Referentes nacionales reconocidos en calidad, seguridad del paciente e innovación en salud.
+        </p>
+      </div>
+
+      <div class="relative mt-10">
+        <!-- Arrows -->
+        <button id="speakers-prev" aria-label="Anterior"
+          class="absolute -left-4 sm:-left-5 top-1/2 -translate-y-1/2 z-10 h-10 w-10 rounded-full bg-brand-900 text-white flex items-center justify-center shadow-md hover:bg-brand-700 transition-colors">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button id="speakers-next" aria-label="Siguiente"
+          class="absolute -right-4 sm:-right-5 top-1/2 -translate-y-1/2 z-10 h-10 w-10 rounded-full bg-brand-900 text-white flex items-center justify-center shadow-md hover:bg-brand-700 transition-colors">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <!-- Track -->
+        <div id="speakers-track"
+          class="flex gap-6 overflow-x-auto pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+
+        <!-- Ponente 1 -->
+        <article class="shrink-0 w-72 sm:w-80 bg-white p-6">
+          <span class="text-xs font-semibold tracking-widest text-brand-500 uppercase">Ponente 01</span>
+          <div class="mt-4 h-24 w-24 rounded-full bg-brand-900/10 border-4 border-white"></div>
+          <h3 class="mt-4 text-lg font-extrabold text-brand-900 uppercase">Phd. Gloria Bautista</h3>
+          <p class="mt-1 text-sm font-semibold text-brand-700">Directora del programa de enfermería</p>
+          <p class="text-xs tracking-wide text-brand-800/60 uppercase">Universidad Francisco de Paula Santander</p>
+          <div class="mt-4 border-l-4 border-brand-500 bg-blue-50 px-4 py-3 text-sm text-brand-900">
+            Aspectos emergentes en seguridad del paciente desde la perspectiva bioética y su
+            relevancia frente a los desafíos actuales en la atención en salud.
+          </div>
+        </article>
+
+        <!-- Ponente 2 -->
+        <article class="shrink-0 w-72 sm:w-80 bg-white p-6">
+          <span class="text-xs font-semibold tracking-widest text-brand-500 uppercase">Ponente 02</span>
+          <div class="mt-4 h-24 w-24 rounded-full bg-brand-900/10 border-4 border-white"></div>
+          <h3 class="mt-4 text-lg font-extrabold text-brand-900 uppercase">Steven Lopesierra Pinto</h3>
+          <p class="mt-1 text-sm font-semibold text-brand-700">Líder de inteligencia artificial</p>
+          <p class="text-xs tracking-wide text-brand-800/60 uppercase">Kawak</p>
+          <div class="mt-4 border-l-4 border-brand-500 bg-blue-50 px-4 py-3 text-sm text-brand-900">
+            Inteligencia artificial aplicada a la gestión de calidad en salud.
+          </div>
+          <p class="mt-3 text-sm text-brand-800/70">
+            Estratega en tecnología y transformación digital con 15+ años liderando la evolución de 700+ procesos.
+          </p>
+        </article>
+
+        <!-- Ponente 3 -->
+        <article class="shrink-0 w-72 sm:w-80 bg-white p-6">
+          <span class="text-xs font-semibold tracking-widest text-brand-500 uppercase">Ponente 03</span>
+          <div class="mt-4 h-24 w-24 rounded-full bg-brand-900/10 border-4 border-white"></div>
+          <h3 class="mt-4 text-lg font-extrabold text-brand-900 uppercase">Dra. Mónica Edith Diopasa Arana</h3>
+          <p class="mt-1 text-sm font-semibold text-brand-700">Coordinadora de Experiencia y Calidad Nacional</p>
+          <p class="text-xs tracking-wide text-brand-800/60 uppercase">Fundación Javesalud</p>
+          <div class="mt-4 border-l-4 border-brand-500 bg-blue-50 px-4 py-3 text-sm text-brand-900">
+            Experiencia exitosa en acreditación: Sedes integradas en red en una institución ambulatoria.
+          </div>
+          <p class="mt-3 text-sm text-brand-800/70">
+            Gerontóloga con posgrado en Gerencia de la Calidad en Salud.
+          </p>
+        </article>
+
+        <!-- Ponente 4 -->
+        <article class="shrink-0 w-72 sm:w-80 bg-white p-6">
+          <span class="text-xs font-semibold tracking-widest text-brand-500 uppercase">Ponente 04</span>
+          <div class="mt-4 h-24 w-24 rounded-full bg-brand-900/10 border-4 border-white"></div>
+          <h3 class="mt-4 text-lg font-extrabold text-brand-900 uppercase">Nombre del Ponente</h3>
+          <p class="mt-1 text-sm font-semibold text-brand-700">Cargo del ponente</p>
+          <p class="text-xs tracking-wide text-brand-800/60 uppercase">Institución</p>
+          <div class="mt-4 border-l-4 border-brand-500 bg-blue-50 px-4 py-3 text-sm text-brand-900">
+            Tema de la ponencia a presentar en el congreso.
+          </div>
+        </article>
+
+        <!-- Ponente 5 -->
+        <article class="shrink-0 w-72 sm:w-80 bg-white p-6">
+          <span class="text-xs font-semibold tracking-widest text-brand-500 uppercase">Ponente 05</span>
+          <div class="mt-4 h-24 w-24 rounded-full bg-brand-900/10 border-4 border-white"></div>
+          <h3 class="mt-4 text-lg font-extrabold text-brand-900 uppercase">Nombre del Ponente</h3>
+          <p class="mt-1 text-sm font-semibold text-brand-700">Cargo del ponente</p>
+          <p class="text-xs tracking-wide text-brand-800/60 uppercase">Institución</p>
+          <div class="mt-4 border-l-4 border-brand-500 bg-blue-50 px-4 py-3 text-sm text-brand-900">
+            Tema de la ponencia a presentar en el congreso.
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Cronograma -->
+  <section id="cronograma" class="bg-gray-50 py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
+        <div>
+          <span class="text-xs font-bold text-brand-700 uppercase">&mdash; Cronograma</span>
+          <h2 class="mt-2 text-3xl sm:text-4xl lg:text-5xl font-extrabold text-brand-900 tracking-tight">
+            Tres días de aprendizaje
+          </h2>
+        </div>
+
+        <div class="flex gap-3">
+          <button type="button" data-day="24" class="day-tab rounded-lg px-6 py-3 text-sm font-bold border border-brand-900 bg-brand-900 text-white transition-colors">
+            24 SEP
+          </button>
+          <button type="button" data-day="25" class="day-tab rounded-lg px-6 py-3 text-sm font-bold border border-gray-300 text-gray-600 hover:border-brand-500 transition-colors">
+            25 SEP
+          </button>
+          <button type="button" data-day="26" class="day-tab rounded-lg px-6 py-3 text-sm font-bold border border-gray-300 text-gray-600 hover:border-brand-500 transition-colors">
+            26 SEP
+          </button>
+        </div>
+      </div>
+
+      <div class="mt-10 border-t border-gray-200">
+
+        <div id="day-24" class="day-panel divide-y divide-gray-200">
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">08:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Apertura institucional y registro</span>
+            <span class="text-sm italic text-gray-500">Auditorio Principal</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">09:30</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Conferencia magistral: Cultura de seguridad del paciente</span>
+            <span class="text-sm italic text-gray-500">Dr. invitado internacional</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">11:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Panel: Gestión del riesgo clínico en IPS</span>
+            <span class="text-sm italic text-gray-500">Sala A</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">14:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Taller: Notificación de eventos adversos</span>
+            <span class="text-sm italic text-gray-500">Sala B</span>
+          </div>
+        </div>
+
+        <div id="day-25" class="day-panel hidden divide-y divide-gray-200">
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">08:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Conferencia: Acreditación en salud</span>
+            <span class="text-sm italic text-gray-500">Auditorio Principal</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">10:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Panel: Innovación y tecnología en salud</span>
+            <span class="text-sm italic text-gray-500">Sala A</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">12:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Taller: Auditoría de calidad en salud</span>
+            <span class="text-sm italic text-gray-500">Sala B</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">15:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Experiencias exitosas en acreditación</span>
+            <span class="text-sm italic text-gray-500">Auditorio Principal</span>
+          </div>
+        </div>
+
+        <div id="day-26" class="day-panel hidden divide-y divide-gray-200">
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">08:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Conferencia magistral de cierre</span>
+            <span class="text-sm italic text-gray-500">Auditorio Principal</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">10:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Panel: Retos de la seguridad del paciente</span>
+            <span class="text-sm italic text-gray-500">Sala A</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">12:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Premiación y reconocimientos</span>
+            <span class="text-sm italic text-gray-500">Auditorio Principal</span>
+          </div>
+          <div class="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-6 py-6">
+            <span class="w-20 shrink-0 text-sm font-semibold text-brand-700">14:00</span>
+            <span class="flex-1 text-base sm:text-lg font-extrabold text-gray-900 uppercase">Clausura del congreso</span>
+            <span class="text-sm italic text-gray-500">Auditorio Principal</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Histórico -->
+  <section id="historico" class="bg-blue-50 py-16 lg:py-20">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">Línea de Tiempo de Ediciones</h2>
+      <p class="mt-4 text-gray-600 leading-relaxed">
+        Explora la evolución de nuestros eventos académicos y de calidad año tras año. Haz clic
+        en cada edición para ver sus detalles y memorias fotográficas.
+      </p>
+      <a href="#"
+         class="mt-6 inline-flex items-center gap-2 rounded-lg border border-brand-500 px-6 py-3 text-sm font-semibold text-brand-700 hover:bg-blue-50 transition-colors">
+        <i class="fa-solid fa-download"></i>
+        Descargar PDF del Historial Completo
+      </a>
+    </div>
+
+    <div class="mt-12 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+
+      <!-- Year selector -->
+      <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+        <button type="button" data-year="2022" class="year-tab text-left bg-white rounded-xl border-2 border-brand-900 p-5 transition-colors">
+          <span class="year-dot inline-block h-3 w-3 rounded-full border-2 border-brand-900"></span>
+          <span class="year-num block mt-2 text-lg font-extrabold text-gray-900">2022</span>
+          <span class="block text-xs text-gray-500 leading-snug">I Simposio de Seguridad del Paciente</span>
+        </button>
+        <button type="button" data-year="2023" class="year-tab text-left bg-white rounded-xl border-2 border-transparent p-5 transition-colors">
+          <span class="year-dot inline-block h-3 w-3 rounded-full border-2 border-gray-300"></span>
+          <span class="year-num block mt-2 text-lg font-extrabold text-gray-400">2023</span>
+          <span class="block text-xs text-gray-400 leading-snug">II Simposio de Seguridad del Paciente</span>
+        </button>
+        <button type="button" data-year="2024" class="year-tab text-left bg-white rounded-xl border-2 border-transparent p-5 transition-colors">
+          <span class="year-dot inline-block h-3 w-3 rounded-full border-2 border-gray-300"></span>
+          <span class="year-num block mt-2 text-lg font-extrabold text-gray-400">2024</span>
+          <span class="block text-xs text-gray-400 leading-snug">III Simposio de Calidad y Seguridad</span>
+        </button>
+        <button type="button" data-year="2025" class="year-tab text-left bg-white rounded-xl border-2 border-transparent p-5 transition-colors">
+          <span class="year-dot inline-block h-3 w-3 rounded-full border-2 border-gray-300"></span>
+          <span class="year-num block mt-2 text-lg font-extrabold text-gray-400">2025</span>
+          <span class="block text-xs text-gray-400 leading-snug">I Congreso COINCASEP</span>
+        </button>
+        <button type="button" data-year="2026" class="year-tab text-left bg-white rounded-xl border-2 border-transparent p-5 transition-colors">
+          <span class="year-dot inline-block h-3 w-3 rounded-full border-2 border-gray-300"></span>
+          <span class="year-num block mt-2 text-lg font-extrabold text-gray-400">2026</span>
+          <span class="block text-xs text-gray-400 leading-snug">II Congreso COINCASEP</span>
+        </button>
+      </div>
+
+      <!-- Year detail panels -->
+      <div class="mt-6">
+
+        <div id="year-2022" class="year-panel bg-white rounded-2xl p-8 sm:p-10">
+          <span class="inline-block rounded-full bg-blue-50 text-brand-700 text-xs font-bold px-3 py-1 uppercase">Edición 2022</span>
+          <h3 class="mt-4 text-2xl font-extrabold text-gray-900">I Simposio de Seguridad del Paciente</h3>
+          <p class="mt-3 text-brand-700/80 max-w-2xl">
+            Nuestra primera edición que marcó el inicio de este gran esfuerzo académico, reuniendo a
+            profesionales de enfermería, medicina y directivos en torno a la seguridad clínica.
+          </p>
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-location-dot text-brand-700"></i> Lugar</span>
+              <span class="block mt-1 font-semibold text-gray-900">Hotel Mío Boutique</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-users text-brand-700"></i> Asistentes presenciales</span>
+              <span class="block mt-1 font-semibold text-gray-900">300 asistentes</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-display text-brand-700"></i> Asistentes virtuales</span>
+              <span class="block mt-1 font-semibold text-gray-900">500 asistentes</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="year-2023" class="year-panel hidden bg-white rounded-2xl p-8 sm:p-10">
+          <span class="inline-block rounded-full bg-blue-50 text-brand-700 text-xs font-bold px-3 py-1 uppercase">Edición 2023</span>
+          <h3 class="mt-4 text-2xl font-extrabold text-gray-900">II Simposio de Seguridad del Paciente</h3>
+          <p class="mt-3 text-brand-700/80 max-w-2xl">
+            El segundo simposio expandió el impacto a nivel virtual, llegando a más de 1.500
+            asistentes virtuales y fortaleciendo las competencias asistenciales en toda la región.
+          </p>
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-location-dot text-brand-700"></i> Lugar</span>
+              <span class="block mt-1 font-semibold text-gray-900">Hotel Mío Boutique</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-users text-brand-700"></i> Asistentes presenciales</span>
+              <span class="block mt-1 font-semibold text-gray-900">+300 asistentes</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-display text-brand-700"></i> Asistentes virtuales</span>
+              <span class="block mt-1 font-semibold text-gray-900">+1.500 asistentes</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="year-2024" class="year-panel hidden bg-white rounded-2xl p-8 sm:p-10">
+          <span class="inline-block rounded-full bg-blue-50 text-brand-700 text-xs font-bold px-3 py-1 uppercase">Edición 2024</span>
+          <h3 class="mt-4 text-2xl font-extrabold text-gray-900">III Simposio de Calidad y Seguridad del Paciente</h3>
+          <p class="mt-3 text-brand-700/80 max-w-2xl">
+            Integrando la gestión de la calidad como pilar principal de la seguridad asistencial.
+            Consolidó una alianza sólida entre múltiples instituciones de salud.
+          </p>
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-location-dot text-brand-700"></i> Lugar</span>
+              <span class="block mt-1 font-semibold text-gray-900">Hotel Mío Boutique</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-users text-brand-700"></i> Asistentes presenciales</span>
+              <span class="block mt-1 font-semibold text-gray-900">+300 asistentes</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-display text-brand-700"></i> Asistentes virtuales</span>
+              <span class="block mt-1 font-semibold text-gray-900">+1.900 asistentes</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="year-2025" class="year-panel hidden bg-white rounded-2xl p-8 sm:p-10">
+          <span class="inline-block rounded-full bg-blue-50 text-brand-700 text-xs font-bold px-3 py-1 uppercase">Edición 2025</span>
+          <h3 class="mt-4 text-2xl font-extrabold text-gray-900">I Congreso Interinstitucional de Calidad y Seguridad del Paciente</h3>
+          <p class="mt-3 text-brand-700/80 max-w-2xl">
+            El primer congreso oficial reunió a ponentes nacionales de renombre. Se expandió el
+            aforo presencial al doble, consagrándose como el referente indiscutible del sector
+            salud en Norte de Santander.
+          </p>
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-location-dot text-brand-700"></i> Lugar</span>
+              <span class="block mt-1 font-semibold text-gray-900">Hotel Bolívar Cúcuta</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-users text-brand-700"></i> Asistentes presenciales</span>
+              <span class="block mt-1 font-semibold text-gray-900">+600 asistentes</span>
+            </div>
+            <div class="bg-gray-50 rounded-lg px-5 py-4">
+              <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-display text-brand-700"></i> Asistentes virtuales</span>
+              <span class="block mt-1 font-semibold text-gray-900">+2.500 asistentes</span>
+            </div>
+          </div>
+        </div>
+
+        <div id="year-2026" class="year-panel hidden bg-white rounded-2xl overflow-hidden">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center p-8 sm:p-10">
+            <div>
+              <span class="inline-block rounded-full bg-brand-900 text-white text-xs font-bold px-3 py-1 uppercase">Próxima edición</span>
+              <h3 class="mt-4 text-2xl font-extrabold text-gray-900">II Congreso Interinstitucional de Calidad y Seguridad del Paciente</h3>
+              <p class="mt-3 text-brand-700/80">
+                Nuestra próxima gran edición que se celebrará en septiembre de 2026. Te invitamos
+                a ser parte de esta nueva experiencia académica y de acreditación clínica
+                registrándote hoy.
+              </p>
+              <div class="mt-6 flex flex-col sm:flex-row sm:items-center gap-4">
+                <div class="bg-gray-50 rounded-lg px-5 py-4">
+                  <span class="flex items-center gap-2 text-xs font-bold text-gray-500 uppercase"><i class="fa-solid fa-location-dot text-brand-700"></i> Lugar</span>
+                  <span class="block mt-1 font-semibold text-gray-900">Hotel Faranda Bolívar Cúcuta</span>
+                </div>
+                <a href="#registro" class="inline-flex justify-center rounded-lg bg-brand-900 px-6 py-3 text-sm font-semibold text-white hover:bg-brand-700 transition-colors whitespace-nowrap">
+                  Inscribirse Ahora
+                </a>
+              </div>
+            </div>
+
+            <div class="relative h-64 lg:h-full lg:min-h-[280px] rounded-2xl overflow-hidden bg-gradient-to-br from-brand-900 via-brand-700 to-brand-500">
+              <div class="absolute inset-0 flex items-center justify-center p-8 text-center">
+                <span class="text-white text-lg sm:text-xl font-extrabold leading-snug">
+                  II Congreso Interinstitucional de Calidad y Seguridad del Paciente
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Registro -->
+  <section id="registro" class="bg-white py-16 lg:py-20">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">Registro al Congreso</h2>
+      <p class="mt-4 text-gray-600 leading-relaxed">
+        Completa el formulario para asegurar tu participación en este importante evento
+      </p>
+
+      <span class="mt-6 inline-flex items-center gap-2 rounded-full bg-blue-50 text-brand-700 text-sm font-semibold px-4 py-2">
+        <i class="fa-solid fa-gift"></i>
+        Evento completamente gratuito
+      </span>
+
+      <div class="mt-8 bg-gray-50 rounded-xl px-6 sm:px-10 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-6 sm:gap-12 text-left">
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-calendar-days text-brand-700"></i>
+          <div>
+            <span class="block text-xs font-bold text-gray-500 uppercase">Fecha</span>
+            <span class="block text-sm font-semibold text-gray-900">Septiembre de 2026</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-location-dot text-brand-700"></i>
+          <div>
+            <span class="block text-xs font-bold text-gray-500 uppercase">Lugar</span>
+            <span class="block text-sm font-semibold text-gray-900">Hotel Faranda Bolívar Cúcuta - Gran salón</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <i class="fa-solid fa-clock text-brand-700"></i>
+          <div>
+            <span class="block text-xs font-bold text-gray-500 uppercase">Hora</span>
+            <span class="block text-sm font-semibold text-gray-900">4:30pm - 8:00pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-10 mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <form class="text-left bg-white border border-gray-200 rounded-2xl p-6 sm:p-10">
+
+        <h3 class="text-xl sm:text-2xl font-extrabold text-gray-900">Formulario de Registro</h3>
+        <span class="mt-3 block h-1 w-14 bg-brand-500 rounded-full"></span>
+
+        <h4 class="mt-8 text-xs font-bold tracking-wide text-brand-700 uppercase">Información Personal</h4>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5">
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Nombre Completo <span class="text-brand-700">*</span></label>
+            <input type="text" required placeholder="Nombre y apellidos completos"
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Número de Identificación <span class="text-brand-700">*</span></label>
+            <input type="text" required placeholder="Cédula, pasaporte, etc."
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Correo Electrónico <span class="text-brand-700">*</span></label>
+            <input type="email" required placeholder="tu@email.com"
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Teléfono <span class="text-brand-700">*</span></label>
+            <input type="tel" required placeholder="+57 300 123 4567"
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Ciudad <span class="text-brand-700">*</span></label>
+            <input type="text" required placeholder="Ciudad de residencia"
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">País <span class="text-brand-700">*</span></label>
+            <select required
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500">
+              <option>Colombia</option>
+              <option>Venezuela</option>
+              <option>Ecuador</option>
+              <option>Perú</option>
+              <option>Otro</option>
+            </select>
+          </div>
+        </div>
+
+        <h4 class="mt-10 text-xs font-bold tracking-wide text-brand-700 uppercase">Información Profesional</h4>
+        <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-5">
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Profesión/Cargo <span class="text-brand-700">*</span></label>
+            <select required
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500">
+              <option value="" selected disabled>Selecciona tu profesión</option>
+              <option>Medicina</option>
+              <option>Enfermería</option>
+              <option>Fisioterapia</option>
+              <option>Auditoría en salud</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Tipo de Asistente <span class="text-brand-700">*</span></label>
+            <select required
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500">
+              <option value="" selected disabled>Seleccione una opción</option>
+              <option>Presencial</option>
+              <option>Virtual</option>
+            </select>
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Institución/Empresa <span class="text-brand-700">*</span></label>
+            <input type="text" required placeholder="Hospital, clínica, universidad, IPS, etc."
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold text-gray-800">Dependencia/Área <span class="text-brand-700">*</span></label>
+            <input type="text" required placeholder="Departamento, servicio, área de trabajo"
+              class="mt-2 w-full rounded-lg border border-gray-300 px-4 py-2.5 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500" />
+          </div>
+        </div>
+
+        <div class="mt-8 space-y-3">
+          <label class="flex items-start gap-3 text-sm text-gray-600">
+            <input type="checkbox" required class="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-700 focus:ring-brand-500" />
+            Acepto los términos y condiciones del evento y autorizo el uso de mis datos para fines relacionados con el congreso. <span class="text-brand-700">*</span>
+          </label>
+          <label class="flex items-start gap-3 text-sm text-gray-600">
+            <input type="checkbox" class="mt-0.5 h-4 w-4 rounded border-gray-300 text-brand-700 focus:ring-brand-500" />
+            Deseo recibir información sobre futuros eventos y noticias relacionadas con calidad y seguridad del paciente.
+          </label>
+        </div>
+
+        <button type="submit"
+          class="mt-8 w-full rounded-lg bg-brand-900 px-6 py-3.5 text-sm font-bold text-white hover:bg-brand-700 transition-colors">
+          Completar Registro
+        </button>
+        <p class="mt-3 text-xs text-gray-500">* Campos obligatorios</p>
+
+      </form>
+    </div>
+  </section>
+
+  <!-- Certificado -->
+  <section id="certificado" class="bg-soft py-16 lg:py-20">
+    <div class="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-gray-900">¿Participaste en el Congreso?</h2>
+      <p class="mt-3 text-gray-600">Descarga fácilmente tu certificado oficial</p>
+      <a href="#"
+         class="mt-6 inline-flex items-center gap-2 rounded-lg bg-brand-900 px-6 py-3.5 text-sm font-bold text-white hover:bg-brand-700 transition-colors">
+        <i class="fa-solid fa-download"></i>
+        Descarga tu certificado aquí
+      </a>
+    </div>
+  </section>
+
+  <!-- Organizadores -->
+  <section id="organizadores" class="bg-blue-50 py-16 lg:py-20">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+      <span class="text-xs font-bold tracking-widest text-brand-700 uppercase">Alianzas</span>
+      <h2 class="mt-2 text-3xl sm:text-4xl font-extrabold text-gray-900">Instituciones Organizadoras</h2>
+      <p class="mt-3 text-gray-600">En alianza estratégica para la excelencia en salud</p>
+
+      <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="mx-auto h-14 w-14 rounded-2xl bg-brand-900 text-white flex items-center justify-center font-bold">CH</div>
+          <h3 class="mt-5 font-bold text-gray-900">Clinical House</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Institución prestadora de servicios de salud comprometida con la calidad.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="mx-auto h-14 w-14 rounded-2xl bg-brand-700 text-white flex items-center justify-center font-bold">MD</div>
+          <h3 class="mt-5 font-bold text-gray-900">Clínica Medical Duarte</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Centro médico especializado en atención integral con altos estándares.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="mx-auto h-14 w-14 rounded-2xl bg-brand-500 text-white flex items-center justify-center font-bold">UN</div>
+          <h3 class="mt-5 font-bold text-gray-900">Uronorte</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Especialistas en urología comprometidos con la innovación clínica.
+          </p>
+        </div>
+
+        <div class="bg-white rounded-2xl p-8">
+          <div class="mx-auto h-14 w-14 rounded-2xl bg-brand-800 text-white flex items-center justify-center font-bold">DS</div>
+          <h3 class="mt-5 font-bold text-gray-900">ESE Departamental</h3>
+          <p class="mt-2 text-sm text-gray-600 leading-relaxed">
+            Empresa Social del Estado dedicada a la prestación de servicios con enfoque en calidad.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA final -->
+  <section class="relative overflow-hidden bg-brand-900 py-16 lg:py-20">
+    <div class="absolute -top-16 -left-16 h-64 w-64 rounded-full bg-white/5"></div>
+    <div class="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white">¡No te pierdas esta oportunidad!</h2>
+      <p class="mt-4 text-white/80">
+        Únete a nosotros en este evento que marcará un antes y un después en la calidad y
+        seguridad del paciente en Norte de Santander.
+      </p>
+      <span class="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-white">
+        <i class="fa-solid fa-table-cells"></i>
+        Evento completamente gratuito
+      </span>
+      <div class="mt-6">
+        <a href="#registro"
+           class="inline-block rounded-lg bg-white px-8 py-3.5 text-sm font-bold text-brand-900 hover:bg-gray-100 transition-colors">
+          Registrarme ahora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-950 text-gray-300">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+        <!-- Brand -->
+        <div>
+          <span class="text-lg font-bold text-white">II Congreso Interinstitucional</span>
+          <p class="mt-4 text-sm text-gray-400 leading-relaxed max-w-xs">
+            Transformando la atención en salud en Norte de Santander a través de la
+            calidad y la seguridad del paciente.
+          </p>
+        </div>
+
+        <!-- Quick links -->
+        <div>
+          <span class="text-sm font-bold text-white">Enlaces Rápidos</span>
+          <nav class="mt-4 flex flex-col gap-3 text-sm">
+            <a href="#inicio" class="hover:text-white transition-colors">Inicio</a>
+            <a href="#sobre-el-congreso" class="hover:text-white transition-colors">Sobre el Congreso</a>
+            <a href="#cronograma" class="hover:text-white transition-colors">Cronograma</a>
+            <a href="#organizadores" class="hover:text-white transition-colors">Organizadores</a>
+          </nav>
+        </div>
+
+        <!-- Social + CTA -->
+        <div>
+          <span class="text-sm font-bold text-white">Síguenos y Comparte</span>
+          <div class="mt-4 flex items-center gap-3">
+            <a href="#" aria-label="Facebook" class="h-9 w-9 rounded-full bg-gray-800 hover:bg-brand-700 flex items-center justify-center transition-colors">
+              <i class="fa-brands fa-facebook-f text-sm"></i>
+            </a>
+            <a href="#" aria-label="X" class="h-9 w-9 rounded-full bg-gray-800 hover:bg-brand-700 flex items-center justify-center transition-colors">
+              <i class="fa-brands fa-x-twitter text-sm"></i>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="h-9 w-9 rounded-full bg-gray-800 hover:bg-brand-700 flex items-center justify-center transition-colors">
+              <i class="fa-brands fa-linkedin-in text-sm"></i>
+            </a>
+            <a href="#" aria-label="Instagram" class="h-9 w-9 rounded-full bg-gray-800 hover:bg-brand-700 flex items-center justify-center transition-colors">
+              <i class="fa-brands fa-instagram text-sm"></i>
+            </a>
+          </div>
+          <a href="#certificado" class="mt-6 inline-block rounded-md bg-brand-500 px-5 py-2.5 text-sm font-semibold text-white hover:bg-brand-700 transition-colors">
+            Descargar certificados
+          </a>
+        </div>
+
+      </div>
+
+      <div class="mt-12 pt-6 border-t border-gray-800 text-center text-xs text-gray-500">
+        &copy; 2026 II Congreso Interinstitucional de Calidad y Seguridad del Paciente. Todos los derechos reservados.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+
+    // Speakers carousel: continuous auto-scroll with pause on interaction + arrow controls
+    const track = document.getElementById('speakers-track');
+    const prevBtn = document.getElementById('speakers-prev');
+    const nextBtn = document.getElementById('speakers-next');
+
+    if (track && prevBtn && nextBtn) {
+      // Duplicate the original cards once so the track has a seamless second copy to scroll into.
+      const originalCards = Array.from(track.children);
+      originalCards.forEach((card) => {
+        track.appendChild(card.cloneNode(true));
+      });
+
+      let autoScroll = true;
+      let resumeTimeout;
+      let loopWidth = 0;
+
+      const measureLoopWidth = () => {
+        if (!originalCards.length) return 0;
+        const first = originalCards[0];
+        const lastOriginal = originalCards[originalCards.length - 1];
+        const gap = parseFloat(getComputedStyle(track).columnGap || getComputedStyle(track).gap || '0');
+        return (lastOriginal.offsetLeft + lastOriginal.offsetWidth) - first.offsetLeft + gap;
+      };
+
+      const scrollByCard = (direction) => {
+        const card = track.querySelector('article');
+        const cardWidth = card ? card.getBoundingClientRect().width + 24 : 300;
+        track.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
+      };
+
+      const pauseAutoScroll = () => {
+        autoScroll = false;
+        clearTimeout(resumeTimeout);
+        resumeTimeout = setTimeout(() => { autoScroll = true; }, 4000);
+      };
+
+      prevBtn.addEventListener('click', () => {
+        pauseAutoScroll();
+        scrollByCard(-1);
+      });
+      nextBtn.addEventListener('click', () => {
+        pauseAutoScroll();
+        scrollByCard(1);
+      });
+      track.addEventListener('mouseenter', () => { autoScroll = false; });
+      track.addEventListener('mouseleave', () => { autoScroll = true; });
+      track.addEventListener('touchstart', pauseAutoScroll, { passive: true });
+
+      const SPEED = 40; // px per second
+      let lastTime = null;
+
+      const step = (time) => {
+        if (lastTime === null) lastTime = time;
+        const delta = Math.min(time - lastTime, 100);
+        lastTime = time;
+
+        if (autoScroll) {
+          if (loopWidth <= 0) loopWidth = measureLoopWidth();
+          if (loopWidth > 0) {
+            track.scrollLeft += (SPEED * delta) / 1000;
+            if (track.scrollLeft >= loopWidth) {
+              track.scrollLeft -= loopWidth;
+            }
+          }
+        }
+        requestAnimationFrame(step);
+      };
+      requestAnimationFrame(step);
+
+      window.addEventListener('resize', () => { loopWidth = measureLoopWidth(); });
+    }
+
+    // Cronograma: day tabs
+    const dayTabs = document.querySelectorAll('.day-tab');
+    const dayPanels = document.querySelectorAll('.day-panel');
+
+    dayTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const day = tab.dataset.day;
+
+        dayTabs.forEach((t) => {
+          t.classList.remove('bg-brand-900', 'border-brand-900', 'text-white');
+          t.classList.add('border-gray-300', 'text-gray-600');
+        });
+        tab.classList.add('bg-brand-900', 'border-brand-900', 'text-white');
+        tab.classList.remove('border-gray-300', 'text-gray-600');
+
+        dayPanels.forEach((panel) => {
+          panel.classList.toggle('hidden', panel.id !== `day-${day}`);
+        });
+      });
+    });
+
+    // Histórico: year timeline
+    const yearTabs = document.querySelectorAll('.year-tab');
+    const yearPanels = document.querySelectorAll('.year-panel');
+
+    yearTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const year = tab.dataset.year;
+
+        yearTabs.forEach((t) => {
+          t.classList.remove('border-brand-900');
+          t.classList.add('border-transparent');
+          t.querySelector('.year-dot').classList.remove('border-brand-900');
+          t.querySelector('.year-dot').classList.add('border-gray-300');
+          t.querySelector('.year-num').classList.remove('text-gray-900');
+          t.querySelector('.year-num').classList.add('text-gray-400');
+        });
+        tab.classList.add('border-brand-900');
+        tab.classList.remove('border-transparent');
+        tab.querySelector('.year-dot').classList.add('border-brand-900');
+        tab.querySelector('.year-dot').classList.remove('border-gray-300');
+        tab.querySelector('.year-num').classList.add('text-gray-900');
+        tab.querySelector('.year-num').classList.remove('text-gray-400');
+
+        yearPanels.forEach((panel) => {
+          panel.classList.toggle('hidden', panel.id !== `year-${year}`);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
